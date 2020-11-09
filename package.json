@@ -1,6 +1,6 @@
 {
     "name": "minecraft-text",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Parse Minecraft text into many formats including HTML.",
     "main": "index.js",
 	"type": "module",
