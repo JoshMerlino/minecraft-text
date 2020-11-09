@@ -1,12 +1,12 @@
 {
     "name": "minecraft-text",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "description": "Parse Minecraft text into many formats including HTML.",
     "main": "index.js",
 	"type": "module",
     "repository": "https://github.com/JoshMerlino/minecraft-text",
     "bugs": { "url": "https://github.com/JoshMerlino/minecraft-text/issues" },
-    "keywords": ["Minecraft", "Text", "HTML"],
+    "keywords": ["Minecraft", "Text", "HTML", "JSON", "ChatComponent", "§"],
     "author": "Josh Merlino",
     "license": "ISC"
 }
