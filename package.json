@@ -1,12 +1,9 @@
 {
     "name": "minecraft-text",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Parse Minecraft text into many formats including HTML.",
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-	"homepage": "https://photoncss.github.io",
+	"type": "module",
     "repository": "https://github.com/JoshMerlino/minecraft-text",
     "bugs": { "url": "https://github.com/JoshMerlino/minecraft-text/issues" },
     "keywords": ["Minecraft", "Text", "HTML"],
