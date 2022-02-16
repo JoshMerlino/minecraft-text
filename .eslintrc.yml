@@ -32,7 +32,6 @@ rules:
   no-duplicate-case: error
   no-empty: warn
   no-extra-boolean-cast: error
-  no-extra-parens: warn
   no-extra-semi: warn
   no-func-assign: error
   no-import-assign: error
@@ -56,7 +55,6 @@ rules:
   no-alert: warn
   no-constructor-return: error
   no-else-return: warn
-  no-empty-function: warn
   no-empty-pattern: warn
   no-eq-null: error
   no-eval: warn
@@ -88,13 +86,10 @@ rules:
   no-useless-escape: warn
   no-warning-comments: warn
   no-with: warn
-  require-await: warn
   wrap-iife: error
   yoda: warn
   strict: error
   array-bracket-spacing: [warn, always]
-  brace-style: warn
-  camelcase: warn
   capitalized-comments: warn
   comma-dangle: warn
   comma-spacing: warn
@@ -133,6 +128,7 @@ rules:
   spaced-comment: warn
   "@typescript-eslint/no-unused-vars": off
   "@typescript-eslint/no-non-null-assertion": off
+  "@typescript-eslint/no-empty-function": off
 
 overrides:
   - files: "*.cjs"
