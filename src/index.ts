@@ -1,3 +1,8 @@
+import obfuscate from "./obfuscate";
+import parse from "./parse";
+import render from "./render";
+import serialize from "./serialize";
+import stripFormats from "./stripFormats";
+
 // Configure variables in environment file (.env)
-import dotenv from "dotenv";
-dotenv.config();
+export { obfuscate, parse, render, serialize, stripFormats };

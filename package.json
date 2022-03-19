@@ -1,15 +1,22 @@
 {
-    "name": "ts-package",
-    "version": "1.0.0",
-    "description": "Easily create Typescript node.js packages from this boilerplate",
+    "name": "minecraft-text",
+    "version": "1.2.17",
+    "description": "Parse Minecraft text into many formats including HTML.",
     "main": "lib/",
     "types": "lib/",
-    "author": "Josh Merlino",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/JoshMerlino/ts-package.git"
+    "repository": "https://github.com/JoshMerlino/minecraft-text",
+    "bugs": {
+        "url": "https://github.com/JoshMerlino/minecraft-text/issues"
     },
+    "keywords": [
+        "Minecraft",
+        "Text",
+        "HTML",
+        "JSON",
+        "ChatComponent",
+        "§"
+    ],
+    "license": "ISC",
     "scripts": {
         "watch-ts": "tsc -w",
         "watch-js": "nodemon .",

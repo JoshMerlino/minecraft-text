@@ -1,0 +1,132 @@
+@font-face {
+	font-family: "Minecraft";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	src: url("https://cdn.jsdelivr.net/gh/nailujx86/Minecraft-Webfont-and-Colors@v1.0/font/minecraft_font.woff")
+			format("woff"),
+		url("https://cdn.jsdelivr.net/gh/nailujx86/Minecraft-Webfont-and-Colors@v1.0/font/minecraft_font.eot")
+			format("eot"),
+		url("https://cdn.jsdelivr.net/gh/nailujx86/Minecraft-Webfont-and-Colors@v1.0/font/minecraft_font.ttf")
+			format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/nailujx86/Minecraft-Webfont-and-Colors@v1.0/font/minecraft_font.svg#Minecraft")
+			format("svg");
+}
+
+.mc {
+	font-family: Minecraft, Roboto Mono, Monospace;
+}
+
+.mc-black {
+	color: black;
+	text-shadow: 2px 2px #000000;
+}
+
+.mc-dark_blue {
+	color: #0000aa;
+	text-shadow: 2px 2px #00002a;
+}
+
+.mc-dark_green {
+	color: #00aa00;
+	text-shadow: 2px 2px #002a00;
+}
+
+.mc-dark_aqua {
+	color: #00aaaa;
+	text-shadow: 2px 2px #002a2a;
+}
+
+.mc-dark_red {
+	color: #aa0000;
+	text-shadow: 2px 2px #2a0000;
+}
+
+.mc-dark_purple {
+	color: #aa00aa;
+	text-shadow: 2px 2px #2a002a;
+}
+
+.mc-gold {
+	color: #ffaa00;
+	text-shadow: 2px 2px #2a2a00;
+}
+
+.mc-gray {
+	color: #aaaaaa;
+	text-shadow: 2px 2px #2a2a2a;
+}
+
+.mc-dark_gray {
+	color: #555555;
+	text-shadow: 2px 2px #151515;
+}
+
+.mc-blue {
+	color: #5555ff;
+	text-shadow: 2px 2px #15153f;
+}
+
+.mc-green {
+	color: #55ff55;
+	text-shadow: 2px 2px #153f15;
+}
+
+.mc-aqua {
+	color: #55ffff;
+	text-shadow: 2px 2px #153f3f;
+}
+
+.mc-red {
+	color: #ff5555;
+	text-shadow: 2px 2px #3f1515;
+}
+
+.mc-light_purple {
+	color: #ff55ff;
+	text-shadow: 2px 2px #3f153f;
+}
+
+.mc-yellow {
+	color: #ffff55;
+	text-shadow: 2px 2px #3f3f15;
+}
+
+.mc-white {
+	color: white;
+	text-shadow: 2px 2px #3f3f3f;
+}
+
+.mc-bold {
+	font-weight: bold;
+}
+
+.mc-italic {
+	font-style: italic;
+}
+
+.mc-strikethrough,
+.mc-underlined {
+	position: relative;
+	display: inline-block;
+}
+
+.mc-strikethrough::before,
+.mc-underlined::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	right: 0;
+}
+
+.mc-strikethrough::before {
+	border-bottom: 2px solid;
+	border-bottom-color: inherit;
+	top: 55%;
+}
+
+.mc-underlined::after {
+	border-bottom: 2px solid;
+	border-bottom-color: inherit;
+	bottom: -8%;
+}
