@@ -1,6 +1,6 @@
 {
     "name": "minecraft-text",
-    "version": "1.2.17",
+    "version": "1.2.18",
     "description": "Parse Minecraft text into many formats including HTML.",
     "main": "lib/",
     "types": "lib/",
